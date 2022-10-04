@@ -1,8 +1,57 @@
-body {
-    background-color: antiquewhite;
-    margin: 40px;
+@font-face {
+    font-family: 'geforce';
+    src: url(./geforce.ttf);
 }
+
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'geforce';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.video-itself {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
     background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+
+.container-2 {
+    background-color: brown;
+    /* font-size: 100px; */
+    margin: 0;
+    padding: 0;
 }
