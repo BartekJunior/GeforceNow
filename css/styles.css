@@ -16,42 +16,50 @@ h3,
 h4,
 h5,
 h6 {
+    color: brown;
     margin: 0;
     padding: 0;
 }
 
-p {
-    margin: 0;
-    padding: 0;
+
+
+
+
+/* ---------------------------------VIDEO---------------------------------  */
+.video-section {
+
+}
+
+.video-container {
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(109, 224, 81, 0.575);
+    position: relative;
+    overflow: hidden;
 }
 
 .video-itself {
-    width: 100%;
-    height: auto;
+    position: absolute;
+    top: 10%;
+    right: -30%;
+
 }
 
+/* .text-overlay {
+    position: absolute;
+    left: 10%;
+    top: 40px;
+} */
 
 
 
-
-
-
-
-
-
-
-
-
+/* ---------------------------------HEADINGS---------------------------------  */
 
 .container {
     background-color: aqua;
     margin: 0;
     padding: 0;
+    height: 300px;
 }
 
-.container-2 {
-    background-color: brown;
-    /* font-size: 100px; */
-    margin: 0;
-    padding: 0;
-}
+
