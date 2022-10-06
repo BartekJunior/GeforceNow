@@ -101,17 +101,17 @@ section {
 
 /*------------------- PARADISE SECTION -------------------*/
 
+.paradise-container {
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+
 .paradise-image {
     position: relative;
     left: 2%;
     width: 100%;
     height: auto;
-}
-
-.paradise-container {
-    position: relative;
-    background-color: black;
-    overflow: hidden;
 }
 
 .paradise-text {
@@ -121,3 +121,33 @@ section {
     top: 10%;
     width: 40%;
 }
+
+@media screen and (max-width: 900px) {
+   
+
+.paradise-container {
+    position: static;
+    background-color: #FFFFFF;
+    /* overflow: hidden; */
+    width: 100%;
+}
+
+.paradise-image {
+    position: relative;
+    right: 20%;
+    height: auto;
+}
+
+.paradise-text {
+    text-align: center;
+    display: block;
+    color: #000000;
+    position: static;
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+
+  }
