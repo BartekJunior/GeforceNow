@@ -75,3 +75,29 @@ img {
     position: relative;
     right: 8%;
 }
+
+/*------------------- AFTER IMAGE -------------------*/
+
+#after-image {
+    background-color: #FFFFFF;
+    padding: 80px 0 70px 0;
+}
+
+#after-image .container h1 {
+    color: black;
+    margin-bottom: 25px;
+}
+
+.button-green {
+    background-color: #76B900;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20px auto 0;
+    padding: 10px 15px;
+    width: auto;
+}
+
+.container {
+
+}
