@@ -70,13 +70,13 @@ section {
     overflow: hidden;
 }
 
-img {
+#computers .computers-container img {
     width: 110%;
     position: relative;
     right: 8%;
 }
 
-/*------------------- AFTER IMAGE -------------------*/
+/*------------------- AFTER IMAGE SECTION -------------------*/
 
 #after-image {
     background-color: #FFFFFF;
@@ -98,6 +98,14 @@ img {
     width: auto;
 }
 
-.container {
 
+/*------------------- PARADISE SECTION -------------------*/
+
+
+#paradise .paradise-container {
+
+}
+
+#paradise .paradise-container img {
+    width: 100%;
 }
