@@ -101,11 +101,23 @@ section {
 
 /*------------------- PARADISE SECTION -------------------*/
 
-
-#paradise .paradise-container {
-
+.paradise-image {
+    position: relative;
+    left: 2%;
+    width: 100%;
+    height: auto;
 }
 
-#paradise .paradise-container img {
-    width: 100%;
+.paradise-container {
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+
+.paradise-text {
+    color: #FFFFFF;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 40%;
 }
