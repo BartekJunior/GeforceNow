@@ -23,20 +23,11 @@ h6 {
 
 
 
-
-
-/* ---------------------------------VIDEO---------------------------------  */
-
-
-section {
-    background-color: rgb(71, 67, 67);
-}
-
 /*------------------- VIDEO SECTION -------------------*/
 
 #video-section .video-container {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-color: rgba(109, 224, 81, 0.575);
     position: relative;
     overflow: hidden;
@@ -102,7 +93,7 @@ section {
 /*------------------- PARADISE SECTION -------------------*/
 
 .paradise-container {
-    position: relative;
+    position: relative;        /* position relative for .paradise-text */
     background-color: black;
     width: 100%;
 }
@@ -122,31 +113,21 @@ section {
     width: 40%;
 }
 
+
 @media screen and (max-width: 900px) {
-   
 
-.paradise-container {
-    position: static;
-    background-color: #FFFFFF;
-    width: 100%;
+    .paradise-container {
+        position: static;
+        background-color: #FFFFFF;
+        width: 100%;
+    }
+
+    .paradise-text {
+        text-align: center;
+        display: block;
+        color: #000000;
+        position: static;
+        margin: 0 auto;
+        width: 70%;
+    }
 }
-
-/* .paradise-image {
-    height: auto;
-    position: relative;
-    left: -100px;
-} */
-
-.paradise-text {
-    text-align: center;
-    display: block;
-    color: #000000;
-    position: static;
-    margin: 0 auto;
-    width: 70%;
-}
-
-
-
-
-  }
