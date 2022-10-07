@@ -128,14 +128,13 @@ section {
 .paradise-container {
     position: static;
     background-color: #FFFFFF;
-    /* overflow: hidden; */
     width: 100%;
 }
 
 .paradise-image {
-    position: relative;
-    right: 20%;
     height: auto;
+    position: relative;
+    left: -100px;
 }
 
 .paradise-text {
