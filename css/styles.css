@@ -93,7 +93,8 @@ h6 {
 /*------------------- PARADISE SECTION -------------------*/
 
 .paradise-container {
-    position: relative;        /* position relative for .paradise-text */
+    position: relative;
+    /* position relative for .paradise-text */
     background-color: black;
     width: 100%;
 }
@@ -130,4 +131,22 @@ h6 {
         margin: 0 auto;
         width: 70%;
     }
+}
+
+
+/*------------------- THURSDAY SECTION -------------------*/
+#thursday-section {
+    background-color: #000000;
+}
+
+#thursday-section h4 {
+    color: #76B900;
+}
+
+.thursday-image {
+    width: 100%;
+}
+
+.card {
+    background-color: #000000;
 }
