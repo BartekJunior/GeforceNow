@@ -96,12 +96,21 @@
 
     <section id="paradise">
         <div class="paradise-container">
-            <img class="paradise-image" src="./img/paradise.jpg" alt="paradise">
+
+            <picture class="paradise-image">
+                <source media="(max-width:900px)" srcset="./img/paradise-mobile.jpg">
+                <!-- <source media="(min-width:900px)" srcset="./img/paradise.jpg"> -->
+                <img class="paradise-image" src="./img/paradise.jpg" alt="picture-description">
+            </picture>
+
+            <!-- <img class="paradise-image-desktop" src="./img/paradise.jpg" alt="paradise-desktop"> -->
+       
+
             <div class="paradise-text">
                 <h2 style="margin-bottom: 30px;">Free to Play to wiecej opcji zabawy</h2>
                 <p>Dzieki kolekcji prawie 100 najwiekszych tytulow free-to-play, dostepnych juz w Geforce NOW, mozesz
                     zaczac grac od razu, nie wydajac nawet grosza.</p>
-                    <button class="button-green">Zobacz Gry</button>
+                <button class="button-green">Zobacz Gry</button>
             </div>
         </div>
     </section>
