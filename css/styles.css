@@ -139,8 +139,13 @@ h6 {
     background-color: #000000;
 }
 
-#thursday-section h4 {
-    color: #76B900;
+#thursday-section .thursday-heading {
+    padding-top: 110px;
+}
+
+#thursday-section .thursday-heading h1{
+    margin: 0 auto 30px auto;
+    width: 400px;
 }
 
 .thursday-image {
@@ -149,4 +154,26 @@ h6 {
 
 .card {
     background-color: #000000;
+    min-height: 550px;
+    margin: 40px 0 40px 0;
+}
+
+
+#thursday-section h4 {
+    color: #76B900;
+}
+
+#thursday-section .thursday-date {
+    margin: 20px 0;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+}
+
+#thursday-section .thursday-text {
+    color: #FFFFFF;
+}
+
+#thursday-section a {
+    color: #76B900;
+    text-decoration: none;
 }
