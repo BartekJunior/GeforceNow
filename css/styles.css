@@ -205,3 +205,14 @@ h6 {
     width: 100%;
 }
 
+
+/* !!!BOOTSTRAP 8 columns on XL screen REPAIR!!! */
+
+@media (min-width: 1200px) {
+    .row-cols-xl-8 > * {
+      -ms-flex: 0 0 12.5%;
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+
+}
