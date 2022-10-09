@@ -84,7 +84,7 @@ h6 {
     border: none;
     color: #FFFFFF;
     font-size: 20px;
-    margin: 20px auto 0;
+    margin: 20px auto 30px;
     padding: 10px 15px;
     width: auto;
 }
@@ -176,4 +176,13 @@ h6 {
 #thursday-section a {
     color: #76B900;
     text-decoration: none;
+}
+
+
+
+/*------------------- PLATFORM SECTION -------------------*/
+
+
+#platform-section {
+    background-color: black;
 }
