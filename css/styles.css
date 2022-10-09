@@ -191,10 +191,17 @@ h6 {
     background-color: black;
 }
 
+
+.col-xl-1 {
+    padding: 0;
+}
+
 .icon-platform {
     margin: 50px 0 0 0;
     width: 100px;
 }
 
-
+.icon-platform-div {
+    width: 100%;
+}
 
