@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background-color: antiquewhite;
+    background-color: #000000;
     font-family: 'geforce';
 }
 
@@ -23,6 +23,16 @@ h6 {
 
 p {
     color: #FFFFFF;
+}
+
+.button-green {
+    background-color: #76B900;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20px auto 30px;
+    padding: 10px 15px;
+    width: auto;
 }
 
 
@@ -50,9 +60,6 @@ p {
 
 /*------------------- AFTER-VIDEO SECTION -------------------*/
 
-#after-video {
-    background-color: #000000;
-}
 
 
 
@@ -86,47 +93,22 @@ p {
 }
 
 
-
-/*------------------- AFTER IMAGE SECTION -------------------*/
-/* 
-#after-image {
-    background-color: #FFFFFF;
-    padding: 80px 0 70px 0;
-}
-
-#after-image .container h1 {
-    color: black;
-    margin-bottom: 25px;
-} */
-
-.button-green {
-    background-color: #76B900;
-    border: none;
-    color: #FFFFFF;
-    font-size: 20px;
-    margin: 20px auto 30px;
-    padding: 10px 15px;
-    width: auto;
-}
-
-
 /*------------------- PARADISE SECTION -------------------*/
 
-.paradise-container {
+#paradise .paradise-container {
     position: relative;
     /* position relative for .paradise-text */
-    background-color: black;
     width: 100%;
 }
 
-.paradise-image {
+#paradise .paradise-container .paradise-image {
     /* position: relative;
     right: 2%; */
     width: 100%;
     height: auto;
 }
 
-.paradise-text {
+#paradise .paradise-container .paradise-text {
     position: absolute;
     left: 10%;
     top: 10%;
@@ -136,27 +118,28 @@ p {
 
 @media screen and (max-width: 900px) {
 
-    .paradise-container {
+    #paradise .paradise-container {
         position: static;
         background-color: #FFFFFF;
         width: 100%;
     }
 
-    .paradise-text {
+    #paradise .paradise-container .paradise-text {
         text-align: center;
         display: block;
-        color: #000000;
         position: static;
         margin: 0 auto;
         width: 70%;
+    }
+
+    #paradise .paradise-container .paradise-text h2, p {
+        color: #000000;
     }
 }
 
 
 /*------------------- THURSDAY SECTION -------------------*/
-#thursday-section {
-    background-color: #000000;
-}
+#thursday-section {}
 
 #thursday-section .thursday-heading {
     padding-top: 110px;
