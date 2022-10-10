@@ -115,7 +115,7 @@ p {
     width: 40%;
 }
 
-
+/* @media (min-width: 768px) { */
 @media screen and (max-width: 900px) {
 
     #paradise .paradise-container {
@@ -132,8 +132,7 @@ p {
         width: 70%;
     }
 
-    #paradise .paradise-container .paradise-text h2,
-    p {
+    #paradise .paradise-text h2, p {
         color: #000000;
     }
 }
@@ -213,16 +212,13 @@ p {
 #everyone {
     background-image: url("../img/everyone-background.jpg");
     background-size: 150%;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
-    height: 900px;
+    height: 700px;
     background-color:aqua;
+    padding-top: 60px;
 }
 
-.everyone-video-container {
-    margin: 0 25%;
-    text-align: center;
-}
 
 #everyone video {
     width: 100%;
