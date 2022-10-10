@@ -132,15 +132,14 @@ p {
         width: 70%;
     }
 
-    #paradise .paradise-container .paradise-text h2, p {
+    #paradise .paradise-container .paradise-text h2,
+    p {
         color: #000000;
     }
 }
 
 
 /*------------------- THURSDAY SECTION -------------------*/
-#thursday-section {}
-
 #thursday-section .thursday-heading {
     padding-top: 110px;
 }
@@ -150,32 +149,31 @@ p {
     width: 400px;
 }
 
-.thursday-image {
+#thursday-section h4 {
+    color: #76B900;
+}
+
+#thursday-section .thursday-image {
     width: 100%;
 }
 
-.card {
+#thursday-section .container .row .card {
     background-color: #000000;
     min-height: 550px;
     margin: 40px 0 40px 0;
 }
 
-
-#thursday-section h4 {
-    color: #76B900;
-}
-
-#thursday-section .thursday-date {
+#thursday-section .container .row .card .thursday-date {
     margin: 20px 0;
     color: rgb(148, 148, 148);
     font-size: 14px;
 }
 
-#thursday-section .thursday-text {
+#thursday-section .container .row .card .thursday-text {
     color: #FFFFFF;
 }
 
-#thursday-section a {
+#thursday-section .container .row .card a {
     color: #76B900;
     text-decoration: none;
 }
@@ -211,3 +209,21 @@ p {
 
 
 /*------------------- EVERYONE SECTION -------------------*/
+
+#everyone {
+    background-image: url("../img/everyone-background.jpg");
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-color:aqua;
+}
+
+.everyone-video-container {
+    margin: 0 25%;
+    text-align: center;
+}
+
+#everyone video {
+    width: 100%;
+}
