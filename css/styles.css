@@ -187,8 +187,12 @@ h6 {
 /*------------------- PLATFORM SECTION -------------------*/
 
 #platform-section {
+    background-image: url("../img/platform-background.jpg");
+    background-size: 130%%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: black;
-    padding: 60px 0;
+    padding: 60px 0 150px 0;
 }
 
 #platform-section .container .row .col img {
