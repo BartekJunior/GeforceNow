@@ -186,20 +186,15 @@ h6 {
 
 /*------------------- PLATFORM SECTION -------------------*/
 
-
 #platform-section {
     background-color: black;
+    padding: 60px 0;
 }
 
-.icon-platform {
+#platform-section .container .row .col img {
     margin: 50px 0 0 0;
     width: 100px;
 }
-
-.icon-platform-div {
-    width: 100%;
-}
-
 
 /* !!!BOOTSTRAP 8 columns on XL screen REPAIR!!! */
 
