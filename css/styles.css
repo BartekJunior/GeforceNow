@@ -115,7 +115,8 @@ p {
     width: 40%;
 }
 
-/* @media (min-width: 768px) { */
+
+
 @media screen and (max-width: 900px) {
 
     #paradise .paradise-container {
@@ -130,11 +131,12 @@ p {
         position: static;
         margin: 0 auto;
         width: 70%;
-    }
-
-    #paradise .paradise-text h2, p {
         color: #000000;
     }
+ 
+    /* #paradise .paradise-container .paradise-text h2, p {
+        color: #000000;
+    } */
 }
 
 
@@ -168,9 +170,9 @@ p {
     font-size: 14px;
 }
 
-#thursday-section .container .row .card .thursday-text {
+/* #thursday-section .container .row .card .thursday-text {
     color: #FFFFFF;
-}
+} */
 
 #thursday-section .container .row .card a {
     color: #76B900;
@@ -215,7 +217,7 @@ p {
     background-position: center top;
     background-repeat: no-repeat;
     height: 700px;
-    background-color:aqua;
+    background-color: aqua;
     padding-top: 60px;
 }
 
