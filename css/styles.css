@@ -8,6 +8,7 @@ body {
     margin: 0;
     background-color: #000000;
     font-family: 'geforce';
+    color: #FFFFFF;
 }
 
 h1,
@@ -16,14 +17,11 @@ h3,
 h4,
 h5,
 h6 {
-    color: #FFFFFF;
     margin: 20px 0 0;
     padding: 0;
 }
 
-p {
-    color: #FFFFFF;
-}
+
 
 .button-green {
     background-color: #76B900;
@@ -60,8 +58,15 @@ p {
 
 /*------------------- AFTER-VIDEO SECTION -------------------*/
 
+#after-video {
+    padding: 7% 0;
+}
 
-
+@media screen and (max-width: 900px) {
+    #after-video {
+        padding: 10% 0 20% 0;
+    }
+}
 
 /*------------------- COMPUTERS SECTION -------------------*/
 
@@ -77,6 +82,8 @@ p {
     right: 8%;
 }
 
+
+
 /*------------------- THOUSAND SECTION -------------------*/
 
 #thousand {
@@ -84,15 +91,6 @@ p {
     padding: 80px 0 70px 0;
     color: #000000;
 }
-
-
-/* #thousand h1 {
-    color: #000000;
-}
-
-#thousand p {
-    color: #000000;
-} */
 
 
 /*------------------- PARADISE SECTION -------------------*/
@@ -135,7 +133,7 @@ p {
         width: 70%;
         color: #000000;
     }
- 
+
     /* #paradise .paradise-container .paradise-text h2, p {
         color: #000000;
     } */
@@ -187,7 +185,7 @@ p {
 
 #platform-section {
     background-image: url("../img/platform-background.jpg");
-    background-size: 130%%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
@@ -215,12 +213,12 @@ p {
 
 #everyone {
     background-image: url("../img/everyone-background.jpg");
-    background-size: 150%;
-    background-position: center top;
+    background-size: cover;
+    background-position: center bottom;
     background-repeat: no-repeat;
-    height: 700px;
+    height: auto;
     background-color: aqua;
-    padding-top: 60px;
+    padding: 60px 0 60px 0;
 }
 
 
