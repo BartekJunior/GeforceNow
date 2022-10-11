@@ -82,15 +82,17 @@ p {
 #thousand {
     background-color: #FFFFFF;
     padding: 80px 0 70px 0;
+    color: #000000;
 }
 
-#thousand h1 {
+
+/* #thousand h1 {
     color: #000000;
 }
 
 #thousand p {
     color: #000000;
-}
+} */
 
 
 /*------------------- PARADISE SECTION -------------------*/
