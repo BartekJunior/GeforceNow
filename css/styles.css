@@ -211,7 +211,7 @@ h6 {
 
 /*------------------- EVERYONE SECTION -------------------*/
 
-#everyone {
+#everyone-section {
     background-image: url("../img/everyone-background.jpg");
     background-size: cover;
     background-position: center bottom;
@@ -222,7 +222,7 @@ h6 {
 }
 
 
-#everyone video {
+#everyone-section video {
     width: 100%;
 }
 
@@ -244,4 +244,14 @@ h6 {
 
 #exclusive-section h3 {
     margin: 40px 0 30px 0;
+}
+
+
+/*------------------- OPINIONS SECTION -------------------*/
+
+
+#opinions-section {
+    background-color: #1A1A1A;
+    text-align: center;
+    padding: 40px 0;
 }
