@@ -17,11 +17,14 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 20px 0 0;
+    margin: 0;
     padding: 0;
 }
 
 
+.card {
+    background-color: #000000;
+}
 
 .button-green {
     background-color: #76B900;
@@ -159,7 +162,6 @@ h6 {
 }
 
 #thursday-section .container .row .card {
-    background-color: #000000;
     min-height: 550px;
     margin: 40px 0 40px 0;
 }
@@ -238,10 +240,6 @@ h6 {
     width: 80px;
 }
 
-#exclusive-section .container .row .card {
-    background-color: #000000;
-}
-
 #exclusive-section h3 {
     margin: 40px 0 30px 0;
 }
@@ -284,3 +282,55 @@ h6 {
 
 
 /*------------------- SUBSCRIBE SECTION -------------------*/
+
+
+#subscribe-section .card {
+    background-color: #292929;
+}
+
+#subscribe-section .subscribe-heading {
+    margin: 50px 0 40px 0;
+}
+
+#subscribe-section .subscribe-card-heading {
+    padding: 20px 0 20px 0;
+}
+
+#subscribe-section .bg-green {
+    background-color: #76B900;
+}
+
+#subscribe-section .bg-silver {
+    background: rgb(69,69,83);
+    background: linear-gradient(331deg, rgba(69,69,83,1) 17%, rgba(146,146,150,1) 80%);
+}
+
+#subscribe-section .subscribe-card-price {
+    font-size: 30px;
+    margin: 50px 0 50px 0;
+}
+
+#subscribe-section .subscribe-card-info {
+    text-align: left;
+}
+
+.price-button {
+    background-color: #545454;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 150px;
+    margin: 0;
+    padding: 2px;
+}
+
+.price-button:focus {
+    background-color: #76B900;
+}
+
+ul {
+    font-size: 18px;
+    line-height: 3;
+}
+
+/* -------------------------------- */
