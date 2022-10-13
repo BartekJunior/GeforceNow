@@ -99,8 +99,8 @@ h6 {
 /*------------------- PARADISE SECTION -------------------*/
 
 #paradise .paradise-container {
-    position: relative;
     /* position relative for .paradise-text */
+    position: relative;
     width: 100%;
 }
 
@@ -137,9 +137,12 @@ h6 {
         color: #000000;
     }
 
+
+    /* THIS IS FOR PATI */
     /* #paradise .paradise-container .paradise-text h2, p {
         color: #000000;
     } */
+
 }
 
 
@@ -283,18 +286,22 @@ h6 {
 
 /*------------------- SUBSCRIBE SECTION -------------------*/
 
+#subscribe-section {
+    padding: 30px 0 30px 0;
+}
+
 #subscribe-section .container {
     text-align: center;
 }
 
 #subscribe-section .card {
     background-color: #292929;
-    min-height: 670px;
+    min-height: 680px;
+    margin-bottom: 40px;
 }
 
 #subscribe-section .card-body {
     padding: 16px 8px;
-
 }
 
 #subscribe-section .subscribe-heading {
@@ -305,13 +312,14 @@ h6 {
     padding: 20px 0 20px 0;
 }
 
-#subscribe-section .bg-green {
-    background-color: #76B900;
-}
-
-#subscribe-section .bg-silver {
-    background: rgb(69,69,83);
-    background: linear-gradient(331deg, rgba(69,69,83,1) 17%, rgba(146,146,150,1) 80%);
+#subscribe-section .subscribe-card-info {
+    /*MUST HAVE FOR NICE UNORDERED LIST*/
+    display: inline-block;
+    text-align: left;
+    padding-top: 10px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #545454;
 }
 
 #subscribe-section .subscribe-card-price {
@@ -319,8 +327,7 @@ h6 {
     margin: 50px 0 50px 0;
 }
 
-
-.price-button {
+#subscribe-section .price-button {
     background-color: #545454;
     border: none;
     color: #FFFFFF;
@@ -330,13 +337,43 @@ h6 {
     padding: 2px;
 }
 
-.price-button:focus {
+#subscribe-section .price-button:focus {
     background-color: #76B900;
 }
 
-ul {
+#subscribe-section ul {
     font-size: 17px;
     line-height: 3;
 }
 
-/* -------------------------------- */
+.button-wide {
+    width: 170px;
+}
+
+
+/* COLORS OF CARD HEADING */
+#subscribe-section .bg-grey {
+    background-color: #545454;
+}
+
+#subscribe-section .bg-green {
+    background-color: #76B900;
+}
+
+#subscribe-section .bg-silver {
+    background: rgb(69, 69, 83);
+    background: linear-gradient(331deg, rgba(69, 69, 83, 1) 17%, rgba(146, 146, 150, 1) 80%);
+}
+
+
+/* SUBSCRIBE FOOTER */
+
+#subscribe-section .subscribe-footer {
+    text-align: left;
+    font-size: 13px;
+    color: #545454;
+}
+
+#subscribe-section .span-green {
+    color: #76B900;
+}
