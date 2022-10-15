@@ -406,6 +406,6 @@ h6 {
     padding: 20px 0;
 }
 
-#join-section .col {
-    /* width: 300px; */
+#join-section .join-col-width {
+    width: 300px;
 }
