@@ -62,7 +62,7 @@ h6 {
 /*------------------- AFTER-VIDEO SECTION -------------------*/
 
 #after-video {
-    padding: 7% 0;
+    padding: 60px 0;
 }
 
 @media screen and (max-width: 900px) {
@@ -147,13 +147,12 @@ h6 {
 
 
 /*------------------- THURSDAY SECTION -------------------*/
-#thursday-section .thursday-heading {
-    padding-top: 110px;
-}
 
 #thursday-section .thursday-heading h1 {
     margin: 0 auto 30px auto;
     width: 400px;
+    padding-top: 110px;
+
 }
 
 #thursday-section h4 {
@@ -287,7 +286,7 @@ h6 {
 /*------------------- SUBSCRIBE SECTION -------------------*/
 
 #subscribe-section {
-    padding: 30px 0 30px 0;
+    padding: 40px 0 70px 0;
 }
 
 #subscribe-section .container {
@@ -376,4 +375,37 @@ h6 {
 
 #subscribe-section .span-green {
     color: #76B900;
+}
+
+
+/*------------------- JOIN SECTION -------------------*/
+
+
+#join-section {
+    padding: 70px 0;
+}
+
+#join-section .join-heading {
+    padding-bottom: 40px;
+}
+
+#join-section .join-icon {
+    padding: 15px 0;
+}
+
+#join-section img {
+    width: 80px;
+}
+
+#join-section .join-number {
+    padding: 20px 0 20px 0;
+}
+
+#join-section .join-footer {
+    color: #76B900;
+    padding: 20px 0;
+}
+
+#join-section .col {
+    /* width: 300px; */
 }
