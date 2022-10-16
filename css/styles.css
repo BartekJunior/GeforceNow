@@ -437,3 +437,21 @@ h6 {
 #future-pad-section .col-md-9 {
     margin: 0 auto;
 }
+
+
+/*------------------- SOCIAL SECTION -------------------*/
+
+
+#social-section {
+    background-color: #1A1A1A;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#social-section .container {
+    margin: 0 auto 0;
+}
+
+#social-section img {
+    margin: 30px 20px 0 20px;
+}
