@@ -379,10 +379,13 @@ h6 {
 
 
 /*------------------- JOIN SECTION -------------------*/
-
-
 #join-section {
-    padding: 70px 0;
+    /* padding: 70px 0; */
+}
+
+#join-section .join-hr {
+    margin: 0 auto;
+    width: 70%;
 }
 
 #join-section .join-heading {
@@ -398,14 +401,39 @@ h6 {
 }
 
 #join-section .join-number {
-    padding: 20px 0 20px 0;
+    padding: 10px 0;
 }
 
 #join-section .join-footer {
     color: #76B900;
-    padding: 20px 0;
+    padding: 0 0 30px;
 }
 
-#join-section .join-col-width {
-    width: 300px;
+#join-section .tight-join {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container {
+    margin: 70px auto;
+}
+
+
+/*------------------- FUTURE-PAD SECTION -------------------*/
+
+
+#future-pad-section img {
+    width: 100%;
+}
+
+.future-text {
+   margin-top: 50px;
+}
+
+.future-text p {
+    margin-top: 20px;
+}
+
+#future-pad-section .col-md-9 {
+    margin: 0 auto;
 }
