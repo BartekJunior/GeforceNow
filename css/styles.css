@@ -423,7 +423,7 @@ h6 {
 }
 
 .future-text {
-   margin-top: 50px;
+    margin-top: 50px;
 }
 
 .future-text p {
@@ -452,17 +452,36 @@ h6 {
 }
 
 
-/*------------------- SOCIAL SECTION -------------------*/
+/*------------------- REQUIRE SECTION -------------------*/
 
+#require-section {
+    padding: 80px 0 60px;
+}
 
 #require-section .require-icon {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#require-section .require-text {
+    display: inline-block;
+    vertical-align: top;
 }
 
 #require-section img {
     width: 80px;
 }
 
+#require-section .col {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #require-section .require-text {
+        width: 280px;
+    }
+}
 
 
 
@@ -470,6 +489,16 @@ h6 {
 
 
 
+
+
+
+
+
+
+
+
+
+/*------------------- TESTESTETESTESTESTESTESTESTESTESTESTETETETETEST -------------------*/
 
 #ending-img {
     /* text-align: center; */
@@ -486,5 +515,33 @@ h6 {
 .lion {
     /* display: inline-block; */
     width: 200px;
+}
+
+
+
+
+/*------------------- TESTESTETESTESTESTESTESTESTESTESTESTETETETETEST -------------------*/
+
+
+#ending {
+    padding: 70px 0 70px 0;
+}
+
+#ending .kwadrat {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #76B900;
+    height: 500px;
+    width: 300px;
+}
+
+#ending .some-text {
+    vertical-align: top;
+    background-color: rgb(151, 17, 84);
+    display: inline-block;
+}
+
+#ending .col {
+    align-content: top;
 }
 
