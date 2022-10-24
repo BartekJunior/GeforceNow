@@ -38,7 +38,6 @@ h6 {
 
 
 /*------------------- INTRO SECTION -------------------*/
-
 #intro-section .intro-container {
     width: 100%;
     height: 800px;
@@ -60,7 +59,6 @@ h6 {
 }
 
 /*------------------- AFTER-VIDEO SECTION -------------------*/
-
 #after-video {
     padding: 60px 0;
 }
@@ -72,7 +70,6 @@ h6 {
 }
 
 /*------------------- COMPUTERS SECTION -------------------*/
-
 #computers .computers-container {
     text-align: center;
     width: 100%;
@@ -88,7 +85,6 @@ h6 {
 
 
 /*------------------- THOUSAND SECTION -------------------*/
-
 #thousand {
     background-color: #FFFFFF;
     padding: 80px 0 70px 0;
@@ -97,7 +93,6 @@ h6 {
 
 
 /*------------------- PARADISE SECTION -------------------*/
-
 #paradise .paradise-container {
     /* position relative for .paradise-text */
     position: relative;
@@ -147,7 +142,6 @@ h6 {
 
 
 /*------------------- THURSDAY SECTION -------------------*/
-
 #thursday-section .thursday-heading h1 {
     margin: 0 auto 30px auto;
     width: 400px;
@@ -174,10 +168,6 @@ h6 {
     font-size: 14px;
 }
 
-/* #thursday-section .container .row .card .thursday-text {
-    color: #FFFFFF;
-} */
-
 #thursday-section .container .row .card a {
     color: #76B900;
     text-decoration: none;
@@ -186,7 +176,6 @@ h6 {
 
 
 /*------------------- PLATFORM SECTION -------------------*/
-
 #platform-section {
     background-image: url("../img/platform-background.jpg");
     background-size: 100%;
@@ -202,7 +191,6 @@ h6 {
 }
 
 /* !!!BOOTSTRAP 8 columns on XL screen REPAIR!!! */
-
 @media (min-width: 1200px) {
     .row-cols-xl-8>* {
         -ms-flex: 0 0 12.5%;
@@ -213,8 +201,8 @@ h6 {
 }
 
 
-/*------------------- EVERYONE SECTION -------------------*/
 
+/*------------------- EVERYONE SECTION -------------------*/
 #everyone-section {
     background-image: url("../img/everyone-background.jpg");
     background-size: cover;
@@ -231,8 +219,7 @@ h6 {
 }
 
 
-/*------------------- EXCLUSIVE SECTION -------------------*/
-
+/*------------------ EXCLUSIVE SECTION -------------------*/
 #exclusive-section {
     padding: 60px 0;
 }
@@ -248,8 +235,6 @@ h6 {
 
 
 /*------------------- OPINIONS SECTION -------------------*/
-
-
 #opinions-section {
     background-color: #1A1A1A;
     text-align: center;
@@ -284,7 +269,6 @@ h6 {
 
 
 /*------------------- SUBSCRIBE SECTION -------------------*/
-
 #subscribe-section {
     padding: 40px 0 70px 0;
 }
@@ -366,7 +350,6 @@ h6 {
 
 
 /* SUBSCRIBE FOOTER */
-
 #subscribe-section .subscribe-footer {
     text-align: left;
     font-size: 13px;
@@ -379,7 +362,6 @@ h6 {
 
 
 /*------------------- JOIN SECTION -------------------*/
-
 #join-section .join-hr {
     margin: 0 auto;
     width: 70%;
@@ -417,7 +399,6 @@ h6 {
 
 
 /*------------------- FUTURE-PAD SECTION -------------------*/
-
 #future-pad-section img {
     width: 100%;
 }
@@ -436,7 +417,6 @@ h6 {
 
 
 /*------------------- SOCIAL SECTION -------------------*/
-
 #social-section {
     background-color: #1A1A1A;
     padding: 50px 0;
@@ -453,7 +433,6 @@ h6 {
 
 
 /*------------------- REQUIRE SECTION -------------------*/
-
 #require-section {
     padding: 100px 0 80px;
 }
@@ -485,7 +464,9 @@ h6 {
 
 
 /*------------------- ENDING SECTION -------------------*/
-
+#ending-section {
+    padding: 30px 0;
+}
 
 #ending-section ul {
     list-style-type: none;
@@ -513,7 +494,7 @@ h6 {
 
 #ending-section p {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 20px 10px;
     font-size: 18px;
     text-align: center;
     width: 50%;
@@ -521,6 +502,8 @@ h6 {
 }
 
 #ending-section .ending-button {
+    /* position: absolute;
+    right: 0; */
     margin: 0;
     font-size: 1rem;
     width: 170px;
@@ -532,63 +515,68 @@ h6 {
 }
 
 #ending-section img {
-    margin: 0 25px 0 0;
+    height: 30px;
+    margin: 0 20px 0 0;
+}
+
+.ending-footer-left {
+    /* position: relative; */
+}
+
+.ending-footer-row {
+    margin-top: 40px;
 }
 
 
+@media screen and (max-width: 768px) {]
 
+    #ending-section .bi-envelope {
+        display: block;
+    }
 
+    #ending-section .ending-footer-left {
+        text-align: center;
+    }
 
+    #ending-section p {
+        width: 70%;
+    }
 
-
-
-
-
-
-
-/*------------------- TESTESTETESTESTESTESTESTESTESTESTESTETETETETEST -------------------*/
-
-#ending-img {
-    /* text-align: center; */
-}
-
-.end-img-container {
-    /* display: inline-block; */
-    float: left;
-    width: 200px;
-    height: 200px;
-    background-color: #76B900;
-}
-
-.lion {
-    /* display: inline-block; */
-    width: 200px;
+    #ending-section img {
+        margin-top: 30px;
+    }
 }
 
 
-
-
-/*------------------- TESTESTETESTESTESTESTESTESTESTESTESTETETETETEST -------------------*/
-
-
-#ending {
-    padding: 70px 0 70px 0;
+/*------------------- FOOTER SECTION -------------------*/
+#footer-section {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 40px 0;
 }
 
-#ending .kwadrat {
-    vertical-align: top;
+#footer-section img {
+    width: 150px;
+}
+
+#footer-section .href-poland {
+    color: #CCCCCC;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#footer-section ul {
+    list-style-type: none;
+    padding: 20px 0 10px;
+}
+
+#footer-section li {
     display: inline-block;
-    background-color: #76B900;
-    height: 500px;
-    width: 300px;
+    margin-right: 20px;
 }
 
-#ending .some-text {
-    vertical-align: top;
-    background-color: rgb(151, 17, 84);
-    display: inline-block;
-}
-
-#ending .col {
-    align-content: top;
+#footer-section p {
+    color: #CCCCCC;
+    font-size: 14px;
 }
