@@ -100,8 +100,6 @@ h6 {
 }
 
 #paradise .paradise-container .paradise-image {
-    /* position: relative;
-    right: 2%; */
     width: 100%;
     height: auto;
 }
@@ -127,11 +125,10 @@ h6 {
         text-align: center;
         display: block;
         position: static;
-        margin: 0 auto;
+        margin: 30px auto;
         width: 70%;
         color: #000000;
     }
-
 
     /* THIS IS FOR PATI */
     /* #paradise .paradise-container .paradise-text h2, p {
@@ -140,13 +137,14 @@ h6 {
 
 }
 
-
 /*------------------- THURSDAY SECTION -------------------*/
-#thursday-section .thursday-heading h1 {
-    margin: 0 auto 30px auto;
-    width: 400px;
-    padding-top: 110px;
+#thursday-section {
+    padding: 40px 0;
+}
 
+#thursday-section .thursday-heading h1 {
+    margin: 0 auto;
+    width: 400px;
 }
 
 #thursday-section h4 {
@@ -564,6 +562,7 @@ h6 {
     float: right;
     font-size: 20px;
     text-decoration: none;
+    margin-top: 5px;
 }
 
 #footer-section ul {
