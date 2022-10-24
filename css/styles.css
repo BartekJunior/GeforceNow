@@ -6,8 +6,9 @@
 
 body {
     margin: 0;
-    background-color: antiquewhite;
+    background-color: #000000;
     font-family: 'geforce';
+    color: #FFFFFF;
 }
 
 h1,
@@ -16,16 +17,28 @@ h3,
 h4,
 h5,
 h6 {
-    color: rgb(219, 128, 128);
-    margin: 20px 0 0;
+    margin: 0;
     padding: 0;
 }
 
 
+.card {
+    background-color: #000000;
+}
 
-/*------------------- VIDEO SECTION -------------------*/
+.button-green {
+    background-color: #76B900;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 20px auto 30px;
+    padding: 10px 15px;
+    width: auto;
+}
 
-#video-section .video-container {
+
+/*------------------- INTRO SECTION -------------------*/
+#intro-section .intro-container {
     width: 100%;
     height: 800px;
     background-color: rgba(109, 224, 81, 0.575);
@@ -33,28 +46,32 @@ h6 {
     overflow: hidden;
 }
 
-#video-section .video-container .video-itself {
+#intro-section .intro-container .video-itself {
     position: absolute;
     right: -30%;
 
 }
 
-#video-section .video-container .heading-container {
+#intro-section .intro-container .heading-container {
     position: relative;
     top: 15%;
     width: 100vw;
 }
 
 
-/*------------------- AFTER VIDEO SECTION -------------------*/
-
+/*------------------- AFTER-VIDEO SECTION -------------------*/
 #after-video {
-    padding: 80px 0 70px 0;
+    padding: 60px 0;
+}
+
+@media screen and (max-width: 900px) {
+    #after-video {
+        padding: 10% 0 20% 0;
+    }
 }
 
 
 /*------------------- COMPUTERS SECTION -------------------*/
-
 #computers .computers-container {
     text-align: center;
     width: 100%;
@@ -67,46 +84,28 @@ h6 {
     right: 8%;
 }
 
-/*------------------- AFTER IMAGE SECTION -------------------*/
 
-#after-image {
+/*------------------- THOUSAND SECTION -------------------*/
+#thousand {
     background-color: #FFFFFF;
     padding: 80px 0 70px 0;
-}
-
-#after-image .container h1 {
-    color: black;
-    margin-bottom: 25px;
-}
-
-.button-green {
-    background-color: #76B900;
-    border: none;
-    color: #FFFFFF;
-    font-size: 20px;
-    margin: 20px auto 0;
-    padding: 10px 15px;
-    width: auto;
+    color: #000000;
 }
 
 
 /*------------------- PARADISE SECTION -------------------*/
-
-.paradise-container {
-    position: relative;        /* position relative for .paradise-text */
-    background-color: black;
+#paradise .paradise-container {
+    /* position relative for .paradise-text */
+    position: relative;
     width: 100%;
 }
 
-.paradise-image {
-    /* position: relative;
-    right: 2%; */
+#paradise .paradise-container .paradise-image {
     width: 100%;
     height: auto;
 }
 
-.paradise-text {
-    color: #FFFFFF;
+#paradise .paradise-container .paradise-text {
     position: absolute;
     left: 10%;
     top: 10%;
@@ -116,18 +115,466 @@ h6 {
 
 @media screen and (max-width: 900px) {
 
-    .paradise-container {
+    #paradise .paradise-container {
         position: static;
         background-color: #FFFFFF;
         width: 100%;
     }
 
-    .paradise-text {
+    #paradise .paradise-container .paradise-text {
         text-align: center;
         display: block;
-        color: #000000;
         position: static;
-        margin: 0 auto;
+        margin: 30px auto;
+        width: 70%;
+        color: #000000;
+    }
+
+    /* THIS IS FOR PATI */
+    /* #paradise .paradise-container .paradise-text h2, p {
+        color: #000000;
+    } */
+
+}
+
+
+/*------------------- THURSDAY SECTION -------------------*/
+#thursday-section {
+    padding: 40px 0;
+}
+
+#thursday-section .thursday-heading h1 {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#thursday-section h4 {
+    color: #76B900;
+}
+
+#thursday-section .thursday-image {
+    width: 100%;
+}
+
+#thursday-section .container .row .card {
+    min-height: 550px;
+    margin: 40px 0 40px 0;
+}
+
+#thursday-section .container .row .card .thursday-date {
+    margin: 20px 0;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+}
+
+#thursday-section .container .row .card a {
+    color: #76B900;
+    text-decoration: none;
+}
+
+
+/*------------------- PLATFORM SECTION -------------------*/
+#platform-section {
+    background-image: url("../img/platform-background.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding: 60px 0 150px 0;
+}
+
+#platform-section .container .row .col img {
+    margin: 50px 0 0 0;
+    width: 100px;
+}
+
+/* !!!BOOTSTRAP 8 columns on XL screen REPAIR!!! */
+@media (min-width: 1200px) {
+    .row-cols-xl-8>* {
+        -ms-flex: 0 0 12.5%;
+        flex: 0 0 12.5%;
+        max-width: 12.5%;
+    }
+
+}
+
+
+/*------------------- EVERYONE SECTION -------------------*/
+#everyone-section {
+    background-image: url("../img/everyone-background.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: auto;
+    background-color: aqua;
+    padding: 60px 0 60px 0;
+}
+
+
+#everyone-section video {
+    width: 100%;
+}
+
+
+/*------------------ EXCLUSIVE SECTION -------------------*/
+#exclusive-section {
+    padding: 60px 0;
+}
+
+#exclusive-section img {
+    margin-top: 50px;
+    width: 80px;
+}
+
+#exclusive-section h3 {
+    margin: 40px 0 30px 0;
+}
+
+
+/*------------------- OPINIONS SECTION -------------------*/
+#opinions-section {
+    background-color: #1A1A1A;
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+
+#opinions-section .carousel-indicators {
+    position: static;
+    margin-top: 30px;
+}
+
+#opinions-section .carousel-quote {
+    color: rgb(136, 136, 134);
+    font-size: 2.6rem;
+}
+
+#opinions-section p {
+    color: rgb(136, 136, 134);
+    margin-top: 30px;
+}
+
+
+.carousel-ind-mine [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-ind-mine .active {
+    background-color: #76B900;
+}
+
+
+/*------------------- SUBSCRIBE SECTION -------------------*/
+#subscribe-section {
+    padding: 40px 0 70px 0;
+}
+
+#subscribe-section .container {
+    text-align: center;
+}
+
+#subscribe-section .card {
+    background-color: #292929;
+    min-height: 680px;
+    margin-bottom: 40px;
+}
+
+#subscribe-section .card-body {
+    padding: 16px 8px;
+}
+
+#subscribe-section .subscribe-heading {
+    margin: 50px 0 40px 0;
+}
+
+#subscribe-section .subscribe-card-heading {
+    padding: 20px 0 20px 0;
+}
+
+#subscribe-section .subscribe-card-info {
+    /*MUST HAVE FOR NICE UNORDERED LIST*/
+    display: inline-block;
+    text-align: left;
+    padding-top: 10px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #545454;
+}
+
+#subscribe-section .subscribe-card-price {
+    font-size: 30px;
+    margin: 50px 0 50px 0;
+}
+
+#subscribe-section .price-button {
+    background-color: #545454;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 150px;
+    margin: 0;
+    padding: 2px;
+}
+
+#subscribe-section .price-button:focus {
+    background-color: #76B900;
+}
+
+#subscribe-section ul {
+    font-size: 17px;
+    line-height: 3;
+}
+
+.button-wide {
+    width: 170px;
+}
+
+
+/* COLORS OF CARD HEADING */
+#subscribe-section .bg-grey {
+    background-color: #545454;
+}
+
+#subscribe-section .bg-green {
+    background-color: #76B900;
+}
+
+#subscribe-section .bg-silver {
+    background: rgb(69, 69, 83);
+    background: linear-gradient(331deg, rgba(69, 69, 83, 1) 17%, rgba(146, 146, 150, 1) 80%);
+}
+
+
+/* SUBSCRIBE FOOTER */
+#subscribe-section .subscribe-footer {
+    text-align: left;
+    font-size: 13px;
+    color: #545454;
+}
+
+#subscribe-section .span-green {
+    color: #76B900;
+}
+
+
+/*------------------- JOIN SECTION -------------------*/
+#join-section .join-hr {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#join-section .join-heading {
+    padding-bottom: 40px;
+}
+
+#join-section .join-icon {
+    padding: 15px 0;
+}
+
+#join-section img {
+    width: 80px;
+}
+
+#join-section .join-number {
+    padding: 10px 0;
+}
+
+#join-section .join-footer {
+    color: #76B900;
+    padding: 0 0 30px;
+}
+
+#join-section .tight-join {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#join-section .container {
+    margin: 70px auto;
+}
+
+
+/*------------------- FUTURE-PAD SECTION -------------------*/
+#future-pad-section img {
+    width: 100%;
+}
+
+.future-text {
+    margin-top: 50px;
+}
+
+.future-text p {
+    margin-top: 20px;
+}
+
+#future-pad-section .col-md-9 {
+    margin: 0 auto;
+}
+
+
+/*------------------- SOCIAL SECTION -------------------*/
+#social-section {
+    background-color: #1A1A1A;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#social-section .container {
+    margin: 0 auto 0;
+}
+
+#social-section img {
+    margin: 30px 20px 0 20px;
+}
+
+
+/*------------------- REQUIRE SECTION -------------------*/
+#require-section {
+    padding: 100px 0 80px;
+}
+
+#require-section .require-icon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#require-section .require-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#require-section img {
+    width: 80px;
+}
+
+#require-section .col {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    #require-section .require-text {
+        width: 280px;
+    }
+}
+
+
+/*------------------- ENDING SECTION -------------------*/
+#ending-section {
+    padding: 30px 0;
+}
+
+#ending-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ending-section li {
+    color: #76B900;
+    padding-top: 10px;
+}
+
+#ending-section .ending-header {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #545454;
+}
+
+
+#ending-section .bi-envelope {
+    color: #76B900;
+    font-size: 48px;
+}
+
+#ending-section p {
+    display: inline-block;
+    margin: 0 20px 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 50%;
+    vertical-align: top;
+}
+
+#ending-section .ending-button {
+    /* position: absolute;
+    right: 0; */
+    margin: 0;
+    font-size: 1rem;
+    width: 170px;
+    vertical-align: top;
+}
+
+#ending-section .ending-footer-right {
+    text-align: right;
+}
+
+#ending-section img {
+    height: 30px;
+    margin: 0 20px 0 0;
+}
+
+.ending-footer-left {
+    /* position: relative; */
+}
+
+.ending-footer-row {
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width: 768px) {]
+
+    #ending-section .bi-envelope {
+        display: block;
+    }
+
+    #ending-section .ending-footer-left {
+        text-align: center;
+    }
+
+    #ending-section p {
         width: 70%;
     }
+
+    #ending-section img {
+        margin-top: 30px;
+    }
+}
+
+
+/*------------------- FOOTER SECTION -------------------*/
+#footer-section {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 40px 0;
+}
+
+#footer-section img {
+    width: 150px;
+}
+
+#footer-section .href-poland {
+    color: #CCCCCC;
+    float: right;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+#footer-section ul {
+    list-style-type: none;
+    padding: 20px 0 10px;
+}
+
+#footer-section li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#footer-section p {
+    color: #CCCCCC;
+    font-size: 14px;
 }
