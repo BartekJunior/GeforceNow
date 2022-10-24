@@ -58,6 +58,7 @@ h6 {
     width: 100vw;
 }
 
+
 /*------------------- AFTER-VIDEO SECTION -------------------*/
 #after-video {
     padding: 60px 0;
@@ -68,6 +69,7 @@ h6 {
         padding: 10% 0 20% 0;
     }
 }
+
 
 /*------------------- COMPUTERS SECTION -------------------*/
 #computers .computers-container {
@@ -81,7 +83,6 @@ h6 {
     position: relative;
     right: 8%;
 }
-
 
 
 /*------------------- THOUSAND SECTION -------------------*/
@@ -112,7 +113,6 @@ h6 {
 }
 
 
-
 @media screen and (max-width: 900px) {
 
     #paradise .paradise-container {
@@ -136,6 +136,7 @@ h6 {
     } */
 
 }
+
 
 /*------------------- THURSDAY SECTION -------------------*/
 #thursday-section {
@@ -172,7 +173,6 @@ h6 {
 }
 
 
-
 /*------------------- PLATFORM SECTION -------------------*/
 #platform-section {
     background-image: url("../img/platform-background.jpg");
@@ -197,7 +197,6 @@ h6 {
     }
 
 }
-
 
 
 /*------------------- EVERYONE SECTION -------------------*/
