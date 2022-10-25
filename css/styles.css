@@ -31,7 +31,7 @@ h6 {
     border: none;
     color: #FFFFFF;
     font-size: 20px;
-    margin: 20px auto 30px;
+    margin: 20px auto;
     padding: 10px 15px;
     width: auto;
 }
@@ -211,7 +211,7 @@ h6 {
 
 #thursday-section .container .row .card {
     min-height: 550px;
-    margin: 40px 0 40px 0;
+    padding: 20px 0;
 }
 
 #thursday-section .container .row .card .thursday-date {
@@ -233,12 +233,16 @@ h6 {
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
-    padding: 60px 0 100px 0;
+    padding: 40px 0;
 }
 
 #platform-section .container .row .col img {
     margin: 50px 0 0 0;
     width: 100px;
+}
+
+#platform-section p {
+    margin-top: 15px;
 }
 
 /* !!!BOOTSTRAP 8 columns on XL screen REPAIR!!! */
