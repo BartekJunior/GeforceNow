@@ -211,7 +211,7 @@ h6 {
 
 #thursday-section .container .row .card {
     min-height: 510px;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 
 #thursday-section .container .row .card .thursday-date {
@@ -223,6 +223,10 @@ h6 {
 #thursday-section .container .row .card a {
     color: #76B900;
     text-decoration: none;
+}
+
+#thursday-section .thursday-footer {
+    padding-top: 30px;
 }
 
 
