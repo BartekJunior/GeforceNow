@@ -94,21 +94,10 @@ h6 {
     color: #000000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /*------------------- GAMES SECTION -------------------*/
-
 #games-section {
     background-color: #FFFFFF;
+    padding-bottom: 50px;
 }
 
 #games-section .animation-container {
@@ -148,21 +137,14 @@ h6 {
 
 @keyframes slidein {
     from {
-        /* pushes the slide left past the viewport */
         background-position-x: 0;
     }
 
     to {
-        /* returns the slide to its default position */
-        background-position-x: -2172px;
+        background-position-x: -2162px;
 
     }
 }
-
-
-
-
-
 
 /*------------------- PARADISE SECTION -------------------*/
 #paradise .paradise-container {
