@@ -30,10 +30,12 @@ h6 {
     background-color: #76B900;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
     font-size: 20px;
     margin: 20px auto;
     padding: 10px 15px;
     width: auto;
+
 }
 
 
