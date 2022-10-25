@@ -107,39 +107,57 @@ h6 {
 
 /*------------------- GAMES SECTION -------------------*/
 
-.animation-container {
+#games-section {
+    background-color: #FFFFFF;
+}
+
+#games-section .animation-container {
     overflow: hidden;
 }
 
-.slider {
+#games-section .slider {
     height: 160px;
-    width: 300%;
+    width: 200%;
     margin-bottom: 10px;
 
-
-    background-image: url("../img/slider1.png");
     background-repeat: repeat-x;
+    animation-name: slidein;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
 
 
-    animation: 17s linear 1s infinite running slidein;
+#games-section .slider-1-div {
+    background-image: url("../img/slider1.png");
+    animation-duration: 13s;
+
+}
+
+#games-section .slider-2-div {
+    background-image: url("../img/slider2.png");
+    animation-duration: 16s;
+
+}
+
+#games-section .slider-3-div {
+    background-image: url("../img/slider3.png");
+    animation-duration: 20s;
 
 }
 
 
 @keyframes slidein {
-  from {
-    /* pushes the slide left past the viewport */
-    transform: translateX(0);
-  }
-  to {
-    /* returns the slide to its default position */
-    transform: translateX(-200vw);
-  }
+    from {
+        /* pushes the slide left past the viewport */
+        background-position-x: 0;
+    }
+
+    to {
+        /* returns the slide to its default position */
+        background-position-x: -2172px;
+
+    }
 }
-
-
-
-
 
 
 
@@ -576,9 +594,8 @@ h6 {
 }
 
 
-@media screen and (max-width: 768px) {]
-
-    #ending-section .bi-envelope {
+@media screen and (max-width: 768px) {
+    ] #ending-section .bi-envelope {
         display: block;
     }
 
