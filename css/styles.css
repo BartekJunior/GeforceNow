@@ -95,6 +95,57 @@ h6 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/*------------------- GAMES SECTION -------------------*/
+
+.animation-container {
+    overflow: hidden;
+}
+
+.slider {
+    height: 160px;
+    width: 300%;
+    margin-bottom: 10px;
+
+
+    background-image: url("../img/slider1.png");
+    background-repeat: repeat-x;
+
+
+    animation: 17s linear 1s infinite running slidein;
+
+}
+
+
+@keyframes slidein {
+  from {
+    /* pushes the slide left past the viewport */
+    transform: translateX(0);
+  }
+  to {
+    /* returns the slide to its default position */
+    transform: translateX(-200vw);
+  }
+}
+
+
+
+
+
+
+
+
+
+
 /*------------------- PARADISE SECTION -------------------*/
 #paradise .paradise-container {
     /* position relative for .paradise-text */
