@@ -643,12 +643,12 @@ h6 {
 
 /*------------------- ERROR SECTION -------------------*/
 #error-section .error-img-div {
-    padding: 50px 0 50px;
+    background-color: #FFFFFF;
+    color: #b91818;
     text-align: center;
+    padding: 50px 0 50px;
     height: 100vh;
     width: auto;
-    background-color: #76B900;
-    color: #b91818;
 }
 
 #error-section img {
