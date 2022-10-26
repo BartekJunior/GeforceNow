@@ -22,28 +22,81 @@
 
     <!-- FAVICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
+    <!-- JavaScript -->
+    <script>
+
+        function visitPage() {
+            window.location = 'error.html';
+        }
+
+
+    </script>
+
 </head>
 
 
 <body>
 
-    <div class="container">
-        <h1>GeForce NOW</h1>
-    </div>
+    <!------------------------ NAVBAR ------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#intro-section">GeForce NOW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro-section">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#games-section">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#thursday-section">Thursday Event</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#platform-section">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#everyone-section">New GTX 4090</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe-section">Subscribe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#join-section">Join</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ending-section">Info</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
 
     <!------------------------ INTRO SECTION ------------------------->
 
     <section id="intro-section">
         <div class="intro-container">
-            <video class="video-itself" src="./img/geforce-now-3080.webm" data-poster poster autoplay loop
-                muted></video>
+            <video class="video-itself" src="./img/geforce-now-3080.mp4" autoplay loop muted playsinline poster></video>
 
-            <div class="heading-container container text-left">
+            <div class="container heading-container">
                 <div class="row">
                     <div class="col-7">
                         <h1>Przyszlosc zaczyna sie teraz</h1>
-                        <h2 style="width: 70% ;">Jak skonczysz ta strone to zagrasz w Dying Light 2</h2>
-                        <button class="button-green">Dowiedz sie wiecej</button>
+                        <h2>Jak skonczysz ta strone to zagrasz w Dying Light 2</h2>
+                        <button onclick="visitPage();" class="button-green">Dowiedz sie wiecej</button>
                     </div>
                     <div class="col-5">
                     </div>
@@ -84,10 +137,30 @@
                 <h1>Ponad 1000 Tytulow, Gotowych do gry</h1>
                 <p>Usluga GeForce NOW laczy sie z cyfrowymi sklepami z grami PC, dzieki czemu mozesz strumieniować gry z
                     wlasnej biblioteki</p>
-                <button class="button-green">Zagraj teraz</button>
+                <button onclick="visitPage();" class="button-green">Zagraj teraz</button>
             </div>
         </div>
     </section>
+
+    <!------------------------ GAMES SECTION ------------------------->
+
+    <section id="games-section">
+        <div class="animation-container">
+
+            <div class="slider-1-div slider">
+                <!-- <img src="./img/slider1.png" alt="slider1"> -->
+            </div>
+            <div class="slider-2-div slider">
+                <!-- <img src="./img/slider2.png" alt="slider1"> -->
+            </div>
+            <div class="slider-3-div slider">
+                <!-- <img src="./img/slider3.png" alt="slider1"> -->
+            </div>
+
+        </div>
+
+    </section>
+
 
 
     <!------------------------ PARADISE SECTION ------------------------->
@@ -104,7 +177,7 @@
                 <h2 style="margin-bottom: 30px;">Free to Play to wiecej opcji zabawy</h2>
                 <p>Dzieki kolekcji prawie 100 najwiekszych tytulow free-to-play, dostepnych juz w Geforce NOW, mozesz
                     zaczac grac od razu, nie wydajac nawet grosza.</p>
-                <button class="button-green">Zobacz Gry</button>
+                <button onclick="visitPage();" class="button-green">Zobacz Gry</button>
             </div>
         </div>
     </section>
@@ -171,8 +244,8 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center">
-                <button class="button-green">Wyswietl wszystko</button>
+            <div class="thursday-footer text-center">
+                <button onclick="visitPage();" class="button-green">Wyswietl wszystko</button>
             </div>
         </div>
     </section>
@@ -228,25 +301,23 @@
                     <h4>LG TV</h4>
                 </div>
             </div>
-            <button class="button-green button-center">Zagraj teraz</button>
+            <button onclick="visitPage();" class="button-green button-center">Zagraj teraz</button>
         </div>
     </section>
 
 
     <!------------------------ EVERYONE SECTION ------------------------->
 
-
     <section id="everyone-section">
         <div class="container text-center">
             <h1 class="mb-4">Wszyscy Juz Graja</h1>
             <p style="margin-bottom: 80px;">Sprawdz, jak Twoi ulubiency z serwisu YouTube i strumieniujący tresci graja
-                w najlepsze gry PC na swiecie
-                – strumieniowane z chmury</p>
+                w najlepsze gry PC na swiecie – strumieniowane z chmury</p>
         </div>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-9 col-md-10">
-                    <video src="./img/geforce-rtx-4090.mp4" data-poster poster autoplay loop muted></video>
+                    <video src="./img/geforce-rtx-4090.mp4" autoplay loop muted playsinline controls poster></video>
                 </div>
             </div>
         </div>
@@ -273,7 +344,7 @@
                             dokonujesz zakupu za pośrednictwem swojego konta w sklepie, Twoje gry będą dla Ciebie
                             zawsze
                             dostępne.</p>
-                        <button class="button-green">Zobacz Gry</button>
+                        <button onclick="visitPage();" class="button-green">Zobacz Gry</button>
                     </div>
                 </div>
 
@@ -287,7 +358,7 @@
                         <p>Od spektakularnych zwycięstw po katastrofalne porażki – wszystkie najciekawsze momenty w
                             grach są automatycznie zapisywane dzięki funkcji NVIDIA Highlights i z łatwością
                             udostępniane całemu światu.</p>
-                        <button class="button-green">NVIDIA Highlights</button>
+                        <button onclick="visitPage();" class="button-green">NVIDIA Highlights</button>
                     </div>
                 </div>
 
@@ -301,7 +372,7 @@
                         <p>Dołącz do GeForce NOW i zacznij bezpłatnie grać. Możesz też ulepszyć swoją subskrypcję,
                             aby uzyskać szybszy dostęp do naszych serwerów gamingowych w chmurze i dłuższe sesje
                             rozgrywki.</p>
-                        <button class="button-green">Zobacz opcje subskrypcji</button>
+                        <button onclick="visitPage();" class="button-green">Zobacz opcje subskrypcji</button>
                     </div>
                 </div>
 
@@ -395,7 +466,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <button class="button-green button-wide">Dolacz</button>
+                            <button onclick="visitPage();" class="button-green button-wide">Dolacz</button>
                         </div>
                     </div>
                 </div>
@@ -423,7 +494,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <button class="button-green button-wide">Dolacz</button>
+                            <button onclick="visitPage();" class="button-green button-wide">Dolacz</button>
                         </div>
                     </div>
                 </div>
@@ -452,7 +523,7 @@
                             </div>
                         </div>
                         <div class="card-footer">
-                            <button class="button-green button-wide">Dolacz</button>
+                            <button onclick="visitPage();" class="button-green button-wide">Dolacz</button>
                         </div>
                     </div>
                 </div>
@@ -562,7 +633,7 @@
                         <p>Współpracujemy z najlepszymi w branży, aby zaoferować Ci bogaty wybór padów do gier,
                             klawiatur,
                             myszy i routerów, które są doskonałym uzupełnieniem GeForce NOW.</p>
-                        <button class="button-green">Rekomendowane pod katem GeForce NOW</button>
+                        <button onclick="visitPage();" class="button-green">Rekomendowane pod katem GeForce NOW</button>
                     </div>
                 </div>
 
@@ -679,7 +750,7 @@
                     <div class="ending-footer-left text-left">
                         <i class="bi bi-envelope"></i>
                         <p>Zarejestruj sie aby otrzymywac aktualnosci na temat uslugi GeForce NOW</p>
-                        <button class="button-green ending-button">Zamow subskrypcje</button>
+                        <button onclick="visitPage();" class="button-green ending-button">Zamow subskrypcje</button>
                     </div>
                 </div>
 
@@ -702,8 +773,8 @@
         <div class="container">
 
             <div class="nvidia-poland">
-                    <img src="./img/footer-logo.png" alt="">
-                    <a class="href-poland" href="">Polska</a>
+                <img src="./img/footer-logo.png" alt="">
+                <a class="href-poland" href="">Polska</a>
             </div>
             <div class="footer-list">
                 <ul>
@@ -720,15 +791,16 @@
             </div>
 
         </div>
-
     </section>
 
 
 
 
-
-
-
+    <div class="container">
+        <button class="button-green button-click">
+            PRESS ME
+        </button>
+    </div>
 
 
 
