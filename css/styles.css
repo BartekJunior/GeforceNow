@@ -45,10 +45,9 @@ h6 {
     background-color: #000000;
 }
 
-.nav-link ::after {
-    color: green;
+.nav-link:focus {
+    color: blue;
 }
-
 
 
 
@@ -73,10 +72,6 @@ h6 {
 
 #intro-section h2 {
     margin: 20px 0;
-}
-
-#intro-section h2 :active {
-    color: green;
 }
 
 
@@ -669,4 +664,20 @@ h6 {
 
 #error-section img {
     margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+.button-click:hover {
+    background-color: #545454;
+}
+
+.button-click:focus {
+    background-color: #b91818;
 }
