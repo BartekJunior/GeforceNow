@@ -45,8 +45,20 @@ h6 {
     background-color: #000000;
 }
 
+.navbar .navbar-brand {
+    font-size: 30px;
+}
+
+.navbar .nav-link {
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #76B900;
+}
+
 .nav-link:focus {
-    color: blue;
+    color: #76B900;
 }
 
 
