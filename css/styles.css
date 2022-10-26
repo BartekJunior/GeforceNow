@@ -39,6 +39,18 @@ h6 {
 
 
 
+/*------------------- NAVBAR -------------------*/
+
+.navbar {
+    background-color: #000000;
+}
+
+.nav-link ::after {
+    color: green;
+}
+
+
+
 
 /*------------------- INTRO SECTION -------------------*/
 #intro-section .intro-container {
@@ -61,6 +73,10 @@ h6 {
 
 #intro-section h2 {
     margin: 20px 0;
+}
+
+#intro-section h2 :active {
+    color: green;
 }
 
 
