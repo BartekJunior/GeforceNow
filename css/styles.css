@@ -693,3 +693,21 @@ h6 {
 .button-click:focus {
     background-color: #b91818;
 }
+
+
+.link-div {
+    margin-bottom: 80px;
+}
+
+.link-div a {
+    color: #b91818;
+    text-decoration: none;
+}
+
+a.shit:focus {
+    color: aqua;
+}
+
+a#poop:focus { 
+    color: yellow;
+}
