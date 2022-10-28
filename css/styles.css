@@ -601,17 +601,13 @@ h6 {
     margin: 0 20px 0 0;
 }
 
-.ending-footer-left {
-    /* position: relative; */
-}
-
 .ending-footer-row {
     margin-top: 40px;
 }
 
 
 @media screen and (max-width: 768px) {
-    ] #ending-section .bi-envelope {
+    #ending-section .bi-envelope {
         display: block;
     }
 
@@ -682,8 +678,6 @@ h6 {
 
 
 
-
-
 /* ----------------------------------------------------- */
 
 .button-click:hover {
@@ -708,6 +702,6 @@ a.shit:focus {
     color: aqua;
 }
 
-a#poop:focus { 
+a:focus { 
     color: yellow;
 }

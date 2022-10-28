@@ -27,10 +27,17 @@
     <!-- JavaScript -->
     <script>
 
+        // Button links and Error
         function visitPage() {
             window.location = 'error.html';
         }
 
+        // Menu item change color after click
+        const changeColor = function () {
+            for (const s of document.getElementsByClassName("nav-link")) {
+                s.style.color = "#76B900";
+            }
+        }
 
     </script>
 
@@ -795,20 +802,20 @@
 
 
 
-<section id="test">
+    <section id="test">
 
-    <div class="container">
-        <button class="button-green button-click">
-            PRESS ME
-        </button>
-    </div>
+        <div class="container">
+            <button class="button-green button-click">
+                PRESS ME
+            </button>
+        </div>
 
-    <div class="container link-div">
-        <a class="shit" tabindex="0">THIS IS LINK</a>
-        <a id="poop" tabindex="0" href="#subscribe-section">LINK WITH AN ID</a>
-    </div>
-    
-</section>
+        <div class="container link-div">
+            <a href="#" class="shit" tabindex="3">THIS IS LINK</a>
+            <a class="poop" tabindex="5" >LINK WITH AN ID</a>
+        </div>
+
+    </section>
 
 
 </body>
