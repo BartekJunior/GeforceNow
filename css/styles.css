@@ -694,14 +694,13 @@ h6 {
 }
 
 .link-div a {
+    display: block;
     color: #b91818;
     text-decoration: none;
 }
 
-a.shit:focus {
+.link-div a:focus {
     color: aqua;
 }
 
-a:focus { 
-    color: yellow;
-}
+ 
