@@ -601,17 +601,13 @@ h6 {
     margin: 0 20px 0 0;
 }
 
-.ending-footer-left {
-    /* position: relative; */
-}
-
 .ending-footer-row {
     margin-top: 40px;
 }
 
 
 @media screen and (max-width: 768px) {
-    ] #ending-section .bi-envelope {
+    #ending-section .bi-envelope {
         display: block;
     }
 
@@ -682,8 +678,6 @@ h6 {
 
 
 
-
-
 /* ----------------------------------------------------- */
 
 .button-click:hover {
@@ -693,3 +687,20 @@ h6 {
 .button-click:focus {
     background-color: #b91818;
 }
+
+
+.link-div {
+    margin-bottom: 80px;
+}
+
+.link-div a {
+    display: block;
+    color: #b91818;
+    text-decoration: none;
+}
+
+.link-div a:focus {
+    color: aqua;
+}
+
+ 

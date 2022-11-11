@@ -27,10 +27,39 @@
     <!-- JavaScript -->
     <script>
 
+        // All buttons links to Error
         function visitPage() {
             window.location = 'error.html';
         }
 
+<<<<<<< HEAD
+=======
+        // Menu item change color after click, works for all menu items at same time - WRONG
+        const changeColor = function () {
+            for (const s of document.getElementsByClassName("nav-link")) {
+                s.style.color = "#76B900";
+            }
+        }
+
+        // Change Subscribe Priority Price after button click
+        const changePriorityPrice1 = function () {
+            document.getElementById('priority-price').innerHTML = '49,99zl / Miesiac';
+        }
+        const changePriorityPrice6 = function () {
+            document.getElementById('priority-price').innerHTML = '299,99zl / Miesiac';
+        }
+
+        
+        // Change Subscribe Rtx Price after button click
+        const changeRtxPrice1 = function () {
+            document.getElementById('rtx-price').innerHTML = '99,99zl / Miesiac';
+        }
+        const changeRtxPrice6 = function () {
+            document.getElementById('rtx-price').innerHTML = '579,99zl / Miesiac';
+        }
+
+        
+>>>>>>> buttons
     </script>
 
 </head>
@@ -477,11 +506,11 @@
                         </div>
                         <div class="card-body">
                             <div class="subscribe-card-price-info">
-                                <button class="price-button">1 Miesiac</button>
-                                <button class="price-button">6 Miesiecy</button>
+                                <button class="price-button" onclick="changePriorityPrice1()">1 Miesiac</button>
+                                <button class="price-button" onclick="changePriorityPrice6()">6 Miesiecy</button>
                             </div>
-                            <div class="subscribe-card-price">
-                                0,00 zl / Miesiac
+                            <div class="subscribe-card-price" id="priority-price">
+                                49,99zl / Miesiac
                             </div>
                             <div class="subscribe-card-info">
                                 <ul>
@@ -505,11 +534,11 @@
                         </div>
                         <div class="card-body">
                             <div class="subscribe-card-price-info">
-                                <button class="price-button">1 Miesiac</button>
-                                <button class="price-button">6 Miesiecy</button>
+                                <button class="price-button" onclick="changeRtxPrice1()">1 Miesiac</button>
+                                <button class="price-button" onclick="changeRtxPrice6()">6 Miesiecy</button>
                             </div>
-                            <div class="subscribe-card-price">
-                                0,00 zl / Miesiac
+                            <div class="subscribe-card-price" id="rtx-price">
+                                99,99zl / Miesiac
                             </div>
                             <div class="subscribe-card-info">
                                 <ul>
@@ -794,13 +823,23 @@
 
 
 
+    <section id="test">
 
-    <div class="container">
-        <button class="button-green button-click">
-            PRESS ME
-        </button>
-    </div>
+        <div class="container">
+            <button class="button-green button-click">
+                PRESS ME
+            </button>
+        </div>
 
+        <div class="container link-div">
+            <a href="#ending-section" class="shit" tabindex="3">THIS IS LINK NOT WORKING</a>
+            <a href="#" tabindex="1">LINK WITH HREF="#" WORKS</a>
+            <a href="" tabindex="1"> LINK WITH HREF="" NOT WORKING</a>
+            <a href="#chuj">Potrzbuje miec anchor taga ktory odsyla do sekcji i zmienia kolor na "STALE" czyli do
+                nastepnego klikniecia</a>
+        </div>
+
+    </section>
 
 
 </body>
